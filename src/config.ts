@@ -27,15 +27,15 @@ export const SITE: Site = {
 
 export const HEADER_LINKS: Link[] = [
   {
-    name: 'Posts',
+    name: '文章',
     url: '/posts',
   },
   {
-    name: 'Projects',
+    name: '项目',
     url: '/projects',
   },
   {
-    name: 'Photos',
+    name: '照片',
     url: '/photos',
   },
 ]
@@ -46,19 +46,19 @@ export const FOOTER_LINKS: Link[] = [
     url: '/',
   },
   {
-    name: 'Posts',
+    name: '文章',
     url: '/posts',
   },
   {
-    name: 'Projects',
+    name: '项目',
     url: '/projects',
   },
   {
-    name: 'Tags',
+    name: '标签',
     url: '/tags',
   },
   {
-    name: 'Photos',
+    name: '照片',
     url: '/photos',
   },
 ]
