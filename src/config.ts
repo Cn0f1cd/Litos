@@ -42,7 +42,7 @@ export const HEADER_LINKS: Link[] = [
 
 export const FOOTER_LINKS: Link[] = [
   {
-    name: 'Readme',
+    name: 'BLOG',
     url: '/',
   },
   {
