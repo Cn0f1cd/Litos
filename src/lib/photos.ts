@@ -48,7 +48,7 @@ export const PhotosList: PhotoData[] = [
     travel: '',
     photos: [
       {
-        src: kml,
+        src: kml1,
         alt: '昆明 · 老街',
         width: kml1.width,
         height: kml1.height,
