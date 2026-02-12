@@ -1,110 +1,118 @@
 import type { PhotoData } from '~/types'
-import cat1 from '~/assets/photos/cat1.webp'
-import cat2 from '~/assets/photos/cat2.webp'
-import cat3 from '~/assets/photos/cat3.webp'
-import cat4 from '~/assets/photos/cat4.webp'
-import dqh1 from '~/assets/photos/dqh1.webp'
-import dqh2 from '~/assets/photos/dqh2.jpg'
-import dqh3 from '~/assets/photos/dqh3.jpg'
-import zs1 from '~/assets/photos/zs1.webp'
-import zs2 from '~/assets/photos/zs2.webp'
+import yd1 from '~/assets/photos/yd1.webp'
+import yd2 from '~/assets/photos/yd2.webp'
+import kml1 from '~/assets/photos/kml1.webp'
+import kml2 from '~/assets/photos/kml2.jpg'
+import kml3 from '~/assets/photos/kml3.jpg'
+import xa1 from '~/assets/photos/xa1.webp'
+import xa2 from '~/assets/photos/xa2.webp'
+import xa3 from '~/assets/photos/xa3.webp'
+import xa4 from '~/assets/photos/xa4.webp'
+import xa5 from '~/assets/photos/xa5.webp'
 
 export const PhotosList: PhotoData[] = [
   {
-    title: "Cute Cats at Friend's House",
+    title: "昆明 · 南屏街",
     icon: {
       type: 'emoji',
-      value: '🐱',
+      value: '🏞️',
     },
-    description: 'So cute (*^ω^*)!',
-    date: '2025-06-21',
+    description: '元旦快乐',
+    date: '2026-01-01',
     travel: '',
     photos: [
       {
-        src: cat1,
-        alt: "Cute cats at friend's house",
-        width: cat1.width,
-        height: cat1.height,
+        src: yd1,
+        alt: "昆明 · 南屏街",
+        width: yd1.width,
+        height: yd1.height,
         variant: '4x3',
       },
       {
-        src: cat2,
-        alt: "Cute cats at friend's house",
-        width: cat2.width,
-        height: cat2.height,
-        variant: '4x3',
-      },
-      {
-        src: cat3,
-        alt: "Cute cats at friend's house",
-        width: cat3.width,
-        height: cat3.height,
-        variant: '4x3',
-      },
-      {
-        src: cat4,
-        alt: "Cute cats at friend's house",
-        width: cat4.width,
-        height: cat4.height,
+        src: yd2,
+        alt: "昆明 · 南屏街",
+        width: yd2.width,
+        height: yd2.height,
         variant: '4x3',
       },
     ],
   },
   {
-    title: 'Ningbo · Dongqian Lake',
+    title: '昆明 · 老街',
     icon: {
       type: 'emoji',
       value: '🚴',
     },
-    description: 'Cycling at Dongqian Lake. Although I got leg cramps a few times, the scenery was beautiful.',
-    date: '2025-03-01',
+    description: '国庆昆明老街',
+    date: '2025-10-05',
     travel: '',
     photos: [
       {
-        src: dqh1,
-        alt: 'Ningbo · Dongqian Lake',
-        width: dqh1.width,
-        height: dqh1.height,
+        src: kml,
+        alt: '昆明 · 老街',
+        width: kml1.width,
+        height: kml1.height,
         variant: '4x5',
       },
       {
-        src: dqh2,
-        alt: 'Ningbo · Dongqian Lake',
-        width: dqh2.width,
-        height: dqh2.height,
+        src: kml2,
+        alt: '昆明 · 老街',
+        width: kml2.width,
+        height: kml2.height,
         variant: '1x1',
       },
       {
-        src: dqh3,
-        alt: 'Ningbo · Dongqian Lake',
-        width: dqh3.width,
-        height: dqh3.height,
+        src: kml3,
+        alt: '昆明 · 老街',
+        width: kml3.width,
+        height: kml3.height,
         variant: '4x3',
       },
     ],
   },
   {
-    title: 'Ningbo · Zhoushan',
+    title: '西安 · 陕西',
     icon: {
       type: 'emoji',
       value: '🏞️',
     },
     description: '',
-    date: '2024-09-07',
+    date: '2024-08-12',
     travel: '',
     photos: [
       {
-        src: zs1,
-        alt: 'Ningbo · Zhoushan',
-        width: zs1.width,
-        height: zs1.height,
+        src: xa1,
+        alt: '西安 · 陕西',
+        width: xa1.width,
+        height: xa1.height,
         variant: '4x3',
       },
       {
-        src: zs2,
-        alt: 'Ningbo · Zhoushan',
-        width: zs2.width,
-        height: zs2.height,
+        src: xa2,
+        alt: '西安 · 陕西',
+        width: xa2.width,
+        height: xa2.height,
+        variant: '4x3',
+      },
+      {
+        src: xa3,
+        alt: '西安 · 陕西',
+        width: xa3.width,
+        height: xa3.height,
+        variant: '4x3',
+      },
+      {
+        src: xa4,
+        alt: '西安 · 陕西',
+        width: xa4.width,
+        height: xa4.height,
+        variant: '4x3',
+      },
+      {
+        src: xa5,
+        alt: '西安 · 陕西',
+        width: xa5.width,
+        height: xa5.height,
         variant: '4x3',
       },
     ],
